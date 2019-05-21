@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>前台网页制作</title>
+<style type="text/css">
+/*  去掉html的默认盒子模型数据  */
+html,body{ 
+	padding:0px; 
+	margin:0px
+}
+/*  主函数参数设置  */
+#main{
+	width:960px; 
+	height:auto;
+	margin:0 auto
+}
+
+#line01{
+	width:960px; 
+	height:30px; 
+	background-color:#8899AA; 
+	font-size:12px;
+	color:#FFFFFF;
+	line-height:30px
+}
+
+#line01_left{
+	width:350px; 
+	height:30px;
+	font-weight:bold;
+	padding-left:10px;
+	float:left  
+}
+
+#line01_right{
+	width:590px; 
+	height:30px;
+	text-align:right;
+	padding-right:10px;
+	float:left
+	}
+	
+#line02{
+width:960px;
+height:140px;
+background-image:url(images-html04/line02.jpg)
+}
+
+#line03{ height:30px;
+background-image:url(images-html04/menu.jpg)
+}
+
+.line03_sub{
+    width:96px; 
+	height:30px;
+    float:left;
+	text-align:center;
+	line-height:30px;
+}
+
+.line03_sub a{
+    text-decoration:none;
+    font-size:14px;
+    font-weight:bold;
+    color:#000000
+}
+
+.line03_sub a:hover{ 
+    width:96px; 
+	height:30px;
+    color:#FFFFFF;
+    background-image:url(images-html05/a_over.gif);
+    float:left
+	}
+	
+#line04{ 
+background-image:url(images-html04/daohang2.gif);
+padding:4px;
+padding-left:10px;
+font-size:14px;}	
+	
+#line05{
+background-image:
+}
+</style>
+
+</head>
+
+<body>
+<div id="main">
+  <div id="line01"> <!--这是第一行的内容-->
+    <div id="line01_left">
+    欢迎访问陕西理工学院电子商城系统登录
+    </div>
+    <div id="line01_right">
+    今天是：2014年1月12日 星期日 | 您的IP地址是：127.0.0.1 | 设为首页 | 加入收藏 | 用户登录
+    </div>
+  </div>
+  	
+  <div id="line02"><!--这个为网页第二行的内容-->
+  </div>
+  
+  <div id="line03"><!--这个为网页第三行的内容-->
+    <div class="line03_sub"><a href="#">首页</a></div>
+    <div class="line03_sub"><a href="#">商城简介</a></div>
+    <div class="line03_sub"><a href="#">购物流程</a></div>
+    <div class="line03_sub"><a href="#">商品展示</a></div>
+    <div class="line03_sub"><a href="#">最新优惠</a></div>
+    <div class="line03_sub"><a href="#">活动公告</a></div>
+    <div class="line03_sub"><a href="#">售后服务</a></div>
+    <div class="line03_sub"><a href="#">结款中心</a></div>
+    <div class="line03_sub"><a href="#">用户中心</a></div>
+    <div class="line03_sub"><a href="#">联系我们</a></div>
+  </div>
+  
+  <div id="line04">
+	 请输入商品名称：<input type="text"/>
+     <input type="submit" value="搜索"/>
+	 没有用户登录|你的余额为：￥<font color="#FF0000"><b>0</b></font>元
+  </div>
+  
+  <div id="line05">
+  </div>
+  
+</div>
+</body>
+</html>

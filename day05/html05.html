@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>计算器制作</title>
+<style type="text/css">
+/*  建立外框架  */
+#content
+  {
+    width:360px; 
+	margin:0 auto;
+  }
+/*  书写标题  */ 
+#name{
+	width:360px;
+	height:40px; 
+	font-size:18px;
+	text-align:center;
+	font-weight:bold; 
+	line-height:40px;
+	padding-bottom:10px
+  }
+/*  计算器主题部分  */
+#main{
+    width:356px;
+	height:228px; 
+	text-align:center;
+	background-color:#F7EED6;
+	padding:2px
+  }
+/*  显示屏行  */
+#screen{
+    width:352px;
+	height:30px;
+	background-color:#FFFFFF;
+	border:1px solid #CCCCCC;
+	font-size:12px;
+	margin:0 auto;
+    line-height:30px;
+	text-align:right 
+}
+/*  第一行按键  */
+#line01{
+	width:360px;
+	height:35px;
+	padding:3px
+	}
+/*  第一行按键左边凹陷格子  */	
+#line01_left{ 
+	width:36px;
+	height:35px; 
+	background-image:url(image/image08.png);
+	position:relative;
+	left:6px;
+	float:left	
+	}
+/*  第一行按键右边整体框架  */		
+#line01_right{ 
+	width:324px;
+	height:35px;
+	position:relative;
+	left:8px;
+	float:left 
+	}
+/*  第一行按键右边按键设置  */	
+.button01{ 
+	width:90px; 
+	height:35px;
+	color:#FF0000;
+	font-size:12px 
+	}
+/*  剩余的2-5行按键框设置  */	
+#line02{
+	width:360px;
+	height:156px;
+	}
+/*  剩余的2-5行按键左边列外框设置  */	
+#line02_left{ 
+	width:53px; 
+	height:156px;
+	float:left;
+	}	
+/*  剩余的2-5行按键右边列外框设置  */		
+#line02_right{ 
+	width:290px; 
+	height:156px;
+	position:relative;
+	left:14px;
+	float:left;
+	}	
+/*  剩余的2-5行按键左边列按键设置  */		
+.button02{ 
+	width:53px; 
+	height:35px;
+	color:#FF0000;
+	font-size:12px;
+	margin:2px 0px
+	}
+/*  剩余的2-5行按键右边列按键设置  */
+.button03{ 
+	width:53px; 
+	height:35px;
+	color:#0033FF;
+	font-size:12px;
+	margin:2px 0px;
+	}	
+</style>
+</head>
+
+<body>
+<div id="content">
+  <div id="name">
+  计算器
+  </div>
+  <div id="main">
+    <div id="screen">
+	0.
+    </div>
+	<div id="line01">
+	  <div id="line01_left">
+	  </div>
+	  
+	  <div id="line01_right">
+		<button class="button01">Backspace</button>
+		<button class="button01">CE</button>
+		<button class="button01">C</button>
+	  </div>
+	</div>
+	  <div id="line02">
+		  <div id="line02_left">
+		  <button class="button02">MC</button>
+		  <br/>
+		  <button class="button02">MR</button>
+		  <br/>
+		  <button class="button02">MS</button>
+		  <br/>
+		  <button class="button02">M+</button>
+		  <br/>
+		  </div>
+		  
+		  <div id="line02_right">
+			<button class="button03">7</button>
+			<button class="button03">8</button>
+			<button class="button03">9</button>
+			<button class="button03"><font color="#FF0000">/</font></button>
+			<button class="button03">sqrt</button>
+			<br/>
+			<button class="button03">4</button>
+			<button class="button03">5</button>
+			<button class="button03">6</button>
+			<button class="button03"><font color="#FF0000">*</font></button>
+			<button class="button03">%</button>
+			<br/>
+			<button class="button03">1</button>
+			<button class="button03">2</button>
+			<button class="button03">3</button>
+			<button class="button03"><font color="#FF0000">-</font></button>
+			<button class="button03">1/x</button>
+			<br/>
+			<button class="button03">0</button>
+			<button class="button03">+/-</button>
+			<button class="button03">.</button>
+			<button class="button03"><font color="#FF0000">+</font></button>
+			<button class="button03"><font color="#FF0000">=</font></button>
+			<br/>
+		  </div>
+	</div>
+	
+  </div>
+  
+</div>
+
+</body>
+</html>

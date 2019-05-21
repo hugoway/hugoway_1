@@ -1,0 +1,499 @@
+html,body,div
+{
+	margin:0 auto; /*该元素距离上、下、左、右的距离为0*/
+	text-align:center;
+	font-size:13px;
+}
+a
+{
+	text-decoration:none; /*去掉链接的下划线*/
+	color:#333333;
+}
+a:hover /*当鼠标经过链接时*/
+{
+	color:#FF0000;
+}
+#main
+{
+	margin:0 auto;
+	width:960px;
+}
+#top
+{
+	margin:0 auto;
+	width:960px;
+	height:30px;
+	background:#99AABB;
+	line-height:30px;
+	color:#FFFFFF;
+}
+#top_left
+{
+	margin:0 auto;
+	padding-left:10px; /*内容距左边距的距离*/
+	width:290px;
+	height:30px;
+	float:left; /*只要是左右结构，需要在每个部分加*/
+	text-align:left;
+	font-weight:bold;
+}
+#top_right
+{
+	margin:0 auto;
+	padding-right:10px; /*内容距右边距的距离*/
+	width:650px;
+	height:30px;
+	float:left;
+	text-align:right;
+}
+#top_right a /*定义该层中的链接部分*/
+{
+	color:#FFFFFF;
+}
+#top_right a:hover
+{
+	color:#FF0000;
+}
+#logo
+{
+	margin:0 auto;
+	width:960px;
+	height:140px;
+	background:url(../images/logo.jpg);
+}
+#menu
+{
+	margin:0 auto;
+	width:960px;
+	height:30px;
+	background:url(../images/menu.jpg);
+	line-height:30px; /*定义行高，如果行高和层的高度一致，则里面的内容会垂直居中*/
+}
+#sub_menu
+{
+	margin:0 auto;
+	width:96px;
+	height:30px;
+	float:left; /*向左浮动，从左到右排列*/
+}
+#sub_menu a /*对sub_menu层中的链接进行定义*/
+{
+	margin:0 auto;
+	width:96px;
+	height:30px;
+	font-weight:bold;
+}
+#sub_menu a:hover /*当鼠标经过#sub_menu中的链接时*/
+{
+	margin:0 auto;
+	width:96px;
+	height:30px;
+	background:url(../images/a_over.gif);
+	float:left; /*让背景图片占满整个层*/
+	color:#FFFFFF;
+}
+#search
+{
+	margin:0 auto;
+	width:950px;
+	height:30px;
+	background:url(../images/daohang2.gif);
+	line-height:30px;
+	text-align:left;
+	padding-left:10px;
+}
+#banner
+{
+	margin:0 auto;
+	width:960px;
+	height:100px;
+	background:url(../images/banner.jpg);
+}
+#r1
+{
+	margin:0 auto;
+	margin-top:2px;
+	width:960px;
+	height:300px;
+}
+#r1_left
+{
+	margin:0 auto;
+	width:200px;
+	height:300px;
+	float:left;
+}
+#r1_center
+{
+	margin:0 auto;
+	margin-left:2px;
+	width:498px;
+	height:300px;
+	float:left;
+}
+#r1_right
+{
+	margin:0 auto;
+	margin-left:2px;
+	width:258px;
+	height:300px;
+	float:left;
+}
+#login
+{
+	margin:0 auto;
+	width:200px;
+	height:auto;
+}
+#remai
+{
+	margin:0 auto;
+	margin-top:3px;
+	width:200px;
+	height:auto;
+}
+/*圆角的CSS模板*/
+* { margin: 0; padding: 0; font-family: "宋体", Verdana, Geneva, sans-serif, "\5b8b\4f53"; }
+* html * { font-family: "宋体"; }
+.ybtop { background-image: url(../images/bg.rbar.png); background-repeat: no-repeat; }
+.ybtop h1, .ybtop h2, .ybtop h3, .ybtop h4, .ybtop h5, .ybtop h6 { background-image: url(../images/bg.rbar.png); background-repeat: no-repeat; text-indent: 1em; }
+.ybmid { padding: 5px; border-right-style: solid; border-left-style: solid; border-width: 1px; overflow: hidden; zoom: 1; background:#FAFAFA}
+.ybbot, .ybbot div { background-image: url(../images/bg.rbar.png); background-repeat: no-repeat; overflow: hidden; }
+.yblan .ybtop { background-position: left 0px; }
+.yblan .ybtop h1, .yblan .ybtop h2, .yblan .ybtop h3, .yblan .ybtop h4, .yblan .ybtop h5, .yblan .ybtop h6 { background-position: right 0px; line-height: 28px;}
+.yblan .ybmid { border-color: #A9BCCD; }
+.yblan .ybbot { background-position: left -28px; }
+.yblan .ybbot div { background-position: right -28px; height: 3px; }
+.ybcheng .ybtop { background-position: left -31px; }
+.ybcheng .ybtop h1, .ybcheng .ybtop h2, .ybcheng .ybtop h3, .ybcheng .ybtop h4, .ybcheng .ybtop h5, .ybcheng .ybtop h6 { background-position: right -31px; line-height: 28px; }
+.ybcheng .ybbot div { background-position: right -59px; height: 2px; }
+.yblanb .ybtop { background-position: left -61px; }
+.yblanb .ybtop h1, .yblanb .ybtop h2, .yblanb .ybtop h3, .yblanb .ybtop h4, .yblanb .ybtop h5, .yblanb .ybtop h6 { background-position: right -61px; line-height: 30px; }
+.yblanb .ybmid { border-color: #A5BFD6; border-width: 2px; }
+.yblanb .ybbot { background-position: left -91px; }
+.yblanb .ybbot div { background-position: right -91px; height: 4px; }
+/*模板结束*/
+.text1
+{
+	width:140px;
+	height:15px;
+}
+#focusphoto
+{
+	margin:0 auto;
+	width:498px;
+	height:196px;
+}
+#kuaijie
+{
+	margin:0 auto;
+	margin-top:2px;
+	width:498px;
+	height:auto;
+}
+.photo1
+{
+	margin-left:13px;
+}
+#youhui
+{
+	margin:0 auto;
+	width:258px;
+	height:auto;
+}
+#gonggao
+{
+	margin:0 auto;
+	margin-top:3px;
+	width:258px;
+	height:auto;
+}
+#line
+{
+	margin:0 auto;
+	padding-left:10px;
+	width:248px;
+	height:25px;
+	border-bottom:1px dotted #CCCCCC; /*dotted为虚线,solid为实线*/
+	text-align:left;
+	line-height:25px;
+	white-space:nowrap; /*不换行*/
+	overflow:hidden; /*超出部分隐藏*/
+	text-overflow:ellipsis; /*加省略号*/
+	background:url(../images/ico-3.gif) left no-repeat;
+}
+#r2
+{
+	margin:0 auto;
+	margin-top:22px;
+	width:960px;
+	height:auto;
+}
+#photo
+{
+	margin:0 auto;
+	width:948px;
+	height:118px;
+	text-align:left;
+}
+#photo_block
+{
+	margin:0 auto;
+	margin-left:5px;
+	width:100px;
+	height:118px;
+	float:left;
+}
+#block_img
+{
+	margin:0 auto;
+	width:98px;
+	height:98px;
+	border:1px solid #CCCCCC;
+}
+#block_img a
+{
+	margin:0 auto;
+	width:98px;
+	height:98px;
+}
+#block_img a:hover
+{
+	margin:0 auto;
+	width:98px;
+	height:98px;
+	background:#FFDAB9;
+}
+#block_text
+{
+	margin:0 auto;
+	width:100px;
+	height:18px;
+	text-align:center;
+	color:#FF0000;
+	font-weight:bold;
+	line-height:18px;
+}
+#kefu
+{
+	margin:0 auto;
+	margin-top:2px;
+	width:960px;
+	height:130px;
+}
+#kefu_content
+{
+	margin:0 auto;
+	width:948px;
+	height:112px;
+	background:url(../images/kefu.jpg);
+}
+#kefu_left
+{
+	margin:0 auto;
+	padding-top:50px;
+	padding-left:80px;
+	width:220px;
+	height:62px;
+	float:left;
+	text-align:left;
+}
+#kefu_right
+{
+	margin:0 auto;
+	padding-top:15px;
+	width:648px;
+	height:97px;
+	float:left;
+}
+#link
+{
+	margin:0 auto;
+	margin-top:26px;
+	width:960px;
+	height:30px;
+	background:url(../images/daohang2.gif);
+	line-height:30px;
+}
+#link1
+{
+	margin:0 auto;
+	margin-top:2px;
+	width:960px;
+	height:30px;
+	background:url(../images/daohang2.gif);
+	line-height:30px;
+}
+#footer
+{
+	margin:0 auto;
+	margin-top:2px;
+	padding-top:10px;
+	width:960px;
+	height:85px;
+	background:url(../images/footer.gif);
+	line-height:25px;
+}
+#content
+{
+	margin:0 auto;
+	margin-top:2px;
+	width:960px;
+}
+#content_left
+{
+	margin:0 auto;
+	width:200px;
+	float:left;
+}
+#content_right
+{
+	margin:0 auto;
+	margin-left:2px;
+	width:758px;
+	background:#8899AA;
+	float:left;
+}
+#sub_gonggao
+{
+	margin:0 auto;
+	width:200px;
+	height:auto;
+	margin-top:2px;
+}
+#line1
+{
+	margin:0 auto;
+	padding-left:10px;
+	width:228px;
+	height:25px;
+	border-bottom:1px dotted #CCCCCC; /*dotted为虚线,solid为实线*/
+	text-align:left;
+	line-height:25px;
+	white-space:nowrap; /*不换行*/
+	overflow:hidden; /*超出部分隐藏*/
+	text-overflow:ellipsis; /*加省略号*/
+	background:url(../images/bli.gif) left no-repeat;
+}
+#toupiao
+{
+	margin:0 auto;
+	margin-top:2px;
+	width:200px;
+	height:auto;
+}
+.text2
+{
+	width:140px;
+	height:15px;
+}
+#line2
+{
+	margin:0 auto;
+	padding-left:13px;
+	width:735px;
+	height:25px;
+	border-bottom:1px dotted #CCCCCC; /*dotted为虚线,solid为实线*/
+	text-align:left;
+	line-height:25px;
+	white-space:nowrap; /*不换行*/
+	overflow:hidden; /*超出部分隐藏*/
+	text-overflow:ellipsis; /*加省略号*/
+	background:url(../images/bli.gif) left no-repeat;
+}
+#type
+{
+	margin:0 auto;
+	width:188px;
+	height:40px;
+	line-height:40px;
+}
+#type1
+{
+	margin:0 auto;
+	width:188px;
+	height:40px;
+	line-height:40px;
+	background:#EAEAEA;
+}
+#type a
+{
+	margin:0 auto;
+	width:188px;
+	height:40px;
+}
+#type a:hover
+{
+	margin:0 auto;
+	width:188px;
+	height:40px;
+	background:#EE82EE;
+	float:left;
+	color:#FFFFFF;
+}
+#type1 a
+{
+	margin:0 auto;
+	width:188px;
+	height:40px;
+}
+#type1 a:hover
+{
+	margin:0 auto;
+	width:188px;
+	height:40px;
+	background:#EE82EE;
+	float:left;
+	color:#FFFFFF;
+}
+#sp
+{
+	margin:0 auto;
+	margin-top:5px;
+	width:736px;
+	height:140px;
+}
+#sp_block
+{
+	margin:0 auto;
+	width:100px;
+	height:140px;
+	float:left;
+	margin-left:4px;
+}
+#sp_img
+{
+	margin:0 auto;
+	width:98px;
+	height:98px;
+	border:1px solid #CCCCCC;
+}
+#sp_img a
+{
+	margin:0 auto;
+	width:98px;
+	height:98px;
+}
+#sp_img a:hover
+{
+	margin:0 auto;
+	width:98px;
+	height:98px;
+	background:#FFDAB9;
+}
+#sp_text1
+{
+	margin:0 auto;
+	width:100px;
+	height:20px;
+	line-height:20px;
+}
+#sp_text2
+{
+	margin:0 auto;
+	width:100px;
+	height:20px;
+	line-height:20px;
+	font-weight:bold;
+	color:#FF0000;
+}

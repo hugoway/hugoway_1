@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <title>加法运算</title>
+    <script type="text/javascript">
+        var v_01=1+1+'1';      //加法运算的顺序是按照从左往右运算的
+        console.log('数值为',v_01);//输出结果为字符串21
+        var v_01='1'+1+1;
+        console.log('数值为',v_01);//输出结果为字符串111
+        var v_02=+'1'+1+1;
+        console.log('数值为',v_02);//输出结果为数值3
+        var v_03=+'a'+1+1;
+        console.log('数值为',v_03);//输出结果为NaN(not a number)
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
